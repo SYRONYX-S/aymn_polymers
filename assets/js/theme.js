@@ -436,4 +436,3 @@ var navbarInit = function navbarInit() {
 
 docReady(navbarInit);
 docReady(detectorInit);
-//# sourceMappingURL=theme.js.map

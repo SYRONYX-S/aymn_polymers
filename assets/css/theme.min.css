@@ -307,9 +307,9 @@
     --ensurance-navbar-dark-active-color: #fff;
     --ensurance-navbar-dark-disabled-color: rgba(255, 255, 255, 0.25);
     --ensurance-navbar-dark-toggler-border-color: rgba(255, 255, 255, 0.1);
-    --ensurance-navbar-light-color: rgba(181, 202, 206, 0.95);
-    --ensurance-navbar-light-hover-color: rgba(219, 228, 231, 0.9);
-    --ensurance-navbar-light-active-color: #DBE4E7;
+    --ensurance-navbar-light-color: rgba(255, 255, 255, 0.95);
+    --ensurance-navbar-light-hover-color: rgb(176, 216, 0);
+    --ensurance-navbar-light-active-color: #00abe4;
     --ensurance-navbar-light-disabled-color: rgba(0, 0, 0, 0.25);
     --ensurance-navbar-light-toggler-border-color: rgba(0, 0, 0, 0.1);
     --ensurance-navbar-light-brand-color: #5EDCD4;
@@ -20901,17 +20901,17 @@ ul {
     background: linear-gradient(225deg, rgba(6, 26, 85, 0) 0%, rgba(1, 19, 61, 0.9) 65.07%)
 }
 
-.card-bg {
-    /* background-color: rgba(4, 91, 193, .3); */
-    /* background: url(../img/team/1.jpg) no-repeat center ; */
-    -webkit-backdrop-filter: blur(0.625rem);
-    backdrop-filter: blur(0.625rem)
+
+.card-body-hero {
+    width: 100%;
+    padding-bottom: 100%;
+    /* z-index: 0; */
+    border-radius: 3.125rem;
+    position: relative;
+    background-color: red;
 }
-.card-bg {
-    /* background-color: rgba(4, 91, 193, .3); */
-    background: url(../img/team/1.jpg) center ;
-    -webkit-backdrop-filter: blur(0.625rem);
-    backdrop-filter: blur(0.625rem)
+.card-body-hero img {
+    width: 100%;
 }
 
 .card-soft-primary {

@@ -22702,13 +22702,13 @@ iframe.yt-video.loaded {
 .circle-hover-wrapper {
     position: relative;
     z-index: 999;
-    height: 100px;
-    width: 100px;
+    height: 70px;
+    width: 70px;
     padding: 0
 }
 
 .circle-hover-wrapper:hover {
-    z-index: 800
+    z-index: 800;
 }
 
 .circle-hover-wrapper:hover::before {

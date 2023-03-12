@@ -20908,10 +20908,11 @@ ul {
     /* z-index: 0; */
     border-radius: 3.125rem;
     position: relative;
-    background-color: red;
+    /* background-color: red; */
 }
 .card-body-hero img {
     width: 100%;
+    opacity: 0;
 }
 
 .card-soft-primary {
